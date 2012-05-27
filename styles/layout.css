@@ -1,0 +1,45 @@
+/*  Sets the appearance of the information bar at the top of the screen */
+#top_bar { position:absolute; top:0; left:0; min-width: 100%; width: auto !important; width: 100%; height: 30px; border-bottom: 1px solid #000000; background-color: #777bb4; }
+#top_bar_content { 	font-size: 12px; font-family: Lucida Sans Unicode, Helvetica, sans-serif; font-weight: bold; text-align: right; color: #ffffff;
+					width: 950px; margin: auto; }
+#top_bar a { float: right; margin-top: 6px; margin-left: 20px; color: #ffffff;}
+.bar_feature { float: right; width: 600px; height: 30px; margin-right: -10px; background-image:url('../images/bar_feature.png'); }
+.bar_feature_content { position:relative; top: 6px; right: 20px;}
+
+/*  Sets the appearance of the header */
+#header { height: 189px; width: 1000px; margin-left: auto; margin-right: auto;  
+		  background-image:url('../images/header.png');  overflow:hidden; background-color: #D6D8E8;}
+#header h1 { margin:0; color: #333333; font-family: Georgia, serif; font-style:italic; font-size: 50px;
+             position: relative; left: 20px; top: 50px;}
+#header h2 {  margin:0;  color: #333333; font-family: Georgia, serif; font-weight:normal; font-style:italic;
+		     font-size: 20px; line-height: 30px; text-align: right;
+			 position: relative; bottom: 30px; right: 270px; }
+			 
+/*  Sets the appearance of the links below the header */
+#linkbar { width: 1000px; height: 48px; text-align: center; background-image:url('../images/header2.png'); background-color: #333333;
+		   font-size: 12px; font-family: Lucida Sans Unicode, Helvetica, sans-serif; font-weight: bold;
+		   margin-left: auto; margin-right: auto; }
+
+#linkbar a { line-height:48px; display:block; float:left; color: #ffffff; height: 48px; width:150px; }
+
+/* Describes the main content of the page */	
+#main { width: 1000px; margin:0; margin-left: auto; margin-right: auto; font-family: sans-serif; overflow:hidden; }
+#content { margin-left: 25px; margin-right: 25px; }
+#feature { float: right; border: 2px solid #000000; background-color: #B3B5D4;}
+#feature img { border: 1px solid #000000; margin: 5px; }
+#feature p { text-align: center; padding:0; margin:2px;} 
+
+/* Makes the footer stick to the bottom of the window  */
+#wrapper { min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -61px; width: 1000px;
+		   background-image:url('../images/main_background.png'); background-repeat:repeat-y; background-color: #FFFFFF;}
+#footer, #push { height: 61px; width: 1000px; }
+
+/* Sets the appearance of the footer  */
+#footer { margin-left: auto; margin-right: auto; background-image:url('../images/footer.png'); background-color: #333333;}
+#footer_content {
+		  width: 1000px; margin-left: auto; margin-right: auto; padding-top: 20px;
+		  font-size: 12px; font-family: Lucida Sans Unicode, Helvetica, sans-serif;
+		  font-weight: bold; color: #ffffff; }
+#footer_content a{ font-size: 12px; color: #cccccc; }
+#copyright{ margin-left: 620px; }
+#copyright a:hover{ text-decoration: underline; }

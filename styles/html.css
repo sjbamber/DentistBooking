@@ -1,0 +1,41 @@
+/* 	Set height to fill the browser window */
+html { height: 100%; }
+body { margin: 0; font-family: Verdana, Arial, Helvetica, sans-serif;
+	   text-align: center; background-color: #D6D8E8; height: 100%; }
+	   
+p { padding-top: 5px; padding-bottom: 5px; text-align: justify; font-size: 14px; }
+h1 { margin:0; margin-top: 5px; color: #777bb4; font-size: 40px; text-align: justify; }
+h2 { color: #777bb4; font-size: 26px; text-align: justify; }
+.noMargin { margin:0; }
+
+/* Describes default appearance of links*/
+a { color: #000000; text-decoration: underline; }
+a:link    { /* Applies to all unvisited links */ }
+a:visited { /* Applies to all visited links */ } 
+a:hover   { /* Applies to links under the pointer */
+		    text-decoration: underline; color: #777bb4; }
+			
+/* Describes default appearance of lists*/		 
+ul { padding: 0px; margin:0; font-size: 14px; list-style-type: none; }
+ol { padding: 0px; font-size: 14px; }
+li { background-image: url(/images/bulletPointArrow.gif); background-repeat: no-repeat; background-position: 0px 5px; 
+	 padding-bottom: 5px; padding-left: 30px; margin-left: 40px; text-align: justify; }
+
+/* Describes default appearance of images*/
+img { margin: 0; padding: 0; border: 0; }
+
+/* Describes appearance of Tables */
+table { font-family: sans-serif; font-size: 14px; }
+td { padding:5px;}
+.tableHeader { font-weight:bold; border-bottom: 1px solid #111111; }
+.tableRow { background-color: #eeeeee; }
+.tableAltRow { background-color: #ffffff; }
+
+/* Describes appearance of Forms */
+.notification { text-align:justify; font-size: 14px; margin:0; color:#FF0000;}
+.formTable { width: 100%; text-align:left; }
+.formLabelColumn {  width: 120px; }
+.formInputColumn { width: 180px; }
+.formValidation { font-family:Calibri; }
+.submit_button { width: 150px; }
+
